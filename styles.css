@@ -86,11 +86,14 @@ a{
 
 h2{
     text-align: center;
+    margin: 30px;
     
 }
 .section2{
     background-color: #f9faf8;
     justify-content: center;
+    padding-bottom: 70px;
+    
 }
 li{
     display: flex;
@@ -108,4 +111,62 @@ li{
     gap: 40px;
     justify-content: center;
     
+}
+.section3{
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+
+}
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+
+}
+.author{
+
+text-align: right;
+font-weight: bold;
+font-size: 22px;
+
+}
+.section4{
+    padding: 100px;
+    justify-content: center;
+    
+
+}
+.action{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 40px 80px;
+    color: #f9faf8;
+    gap: 100px;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+}
+h4{
+    font-weight: bold;
+    margin: 0;
+}
+
+.sign-up{
+    flex-shrink: 0;
+    border-color: #f9faf8;
+    border: 2px solid;
+    padding: 5px 0px;
+    width: 80px;
+
+}
+.but2{
+    display: flex;
+    align-items: center;
+}
+footer{
+    background-color: #1F2937;
+    color:#f9faf8;
+    padding: 30px;
+    text-align: center;
 }
